@@ -61,45 +61,7 @@ input {
 }
 
 
-.slider {
-  max-width: 50%;
-  margin: 0 auto;
-}
 
-
-.contents-item{
-  margin:0;
-}
-
-.contents-item img {
-  height:450px;
-  width:100%;
-}
-
-.contents-text {
-  font-size:10px;
-  margin :8px 10px;
-  display:none;
-}
-
-.mainone p{
-  display:inline-block;
-  vertical-align:middle;
-  text-align:center;
-}
-
-
-.maintwo p{
-  display:inline-block;
-  vertical-align:middle;
-  text-align:center;
-}
-
-.main-item img{
-  height:330px;
-  width:330px;
-  margin: 0 25px 8px 8px;
-}
 
 
 
