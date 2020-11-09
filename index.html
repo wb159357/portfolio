@@ -2,14 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>HTML&CSS test</title>
+  <title>Portrait</title>
   <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
-  <link rel="stylesheet" type="text/css" href="slick.css"/>
+  
 </head>
 <body>
  <header>
-  <div class="header-logo">MY PAGE</div>
+  <div class="header-logo">Portrait</div>
 
   <div class="header-submit">
     <li><input class="contact-submit" type="submit" value="Search"></li>
@@ -23,44 +22,15 @@
    </ul>
   </div>
  </header>
-
-
-<div class="contents">
-  <h1>Photo</h1>
- <div class="slider">
-
-   <div class="contents-item">
-    <img src="slide_image.jpg">
-     <P class="contents-text">bar</P>
-   </div>
-
-   <div class="contents-item">
-     <img src="slide_image2.jpg">
-   </div>
-
-   <div class="contents-item">
-     <img src="slide_image3.jpg">
-   </div>
-
- </div>
+  
+<div class="countainer">
+　<div class="contents">
+  　<h1>学習中項目</h1>
+ 　</div>
 </div>
 
-<div class="mainone">
- <p class="main-item">
-    <img src="main_image.jpg">
- </p>
- <p>北海道旭川、雪の美術館にて撮影。</p>
-</div>
-<div class="maintwo">
- <p class="main-item">
-    <img src="main_image2.jpg">
- 　</p>
-　 <p>
-   大学2年時アメリカのコロラド州ボルダーにてホームステイを経験。その際散策した公園にて撮影。
-　　<br>ホームステイ期間は1か月ほど。<br>日本で在学していた大学の協定校がコロラド大学であり、ホームステイしながら語学の授業を受講しました。
- </p>
-</div>
 
+  
 <footer>
  <div class="footer-list">
   <ul>
@@ -70,23 +40,7 @@
  </div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script type="text/javascript" src="slick.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slider').slick({
-        autoplay:true,
-        dots:true,
-        fade:true,
-      });
-      $('.contents-item').hover(
-       function(){
-        $('.contents-text').fadeIn();},
-       function(){
-        $('.contents-text').fadeOut();}
-      );
-    });
-  </script>
+
 
 </body>
 </html>
