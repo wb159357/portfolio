@@ -112,6 +112,12 @@ input {
   font-size:10px;
 }
 
+.video{
+  width:750px;
+  height:490px;
+  border:solid 1px black;
+}
+
 
 footer{
   background-color:gray;
