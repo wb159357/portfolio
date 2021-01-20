@@ -124,7 +124,7 @@ header {
 
 
 
-.container h1{
+.container h1,.container-1 h1{
   font-size:28px;
   text-align: center;
   margin:20px;
