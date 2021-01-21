@@ -1,0 +1,183 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family:"Avenir Next";
+
+}
+
+li {
+ list-style:none;
+}
+
+
+
+header {
+  background-color:gray;
+  color:#fff;
+  height:85px;
+  width:100%;
+  margin-bottom: 35px;
+  z-index:10;
+  top:0;
+}
+
+
+
+.head-container{
+   width:1250px;
+   margin:0 auto;
+}
+
+
+
+.header-logo {
+  float:left;
+  margin-top:21px;
+  font-size:34px;
+  color:white
+}
+
+
+
+
+.header-menu{
+  float:right;
+  position: relative;
+  z-index: 20;
+  height:85px;
+  width:100px;
+  background-color: gray;
+  white-space: nowrap;
+  overflow: hidden;
+  transition:width 0.4s ease-in;
+  transition:height 0.4s ease-in;
+  transition-delay: 0.3s;
+
+}
+
+.header-menu:hover{
+  width:200px;
+  height: auto;
+}
+
+.brand{
+  text-align:center;
+  font-size:25px;
+  margin-top: 40px
+  background-color:gray;
+  color:white;
+  height:85px;
+
+}
+
+.menu-item{
+  text-align:center;
+}
+
+.menu-item a{
+  color:white;
+}
+
+.menu-item:hover{
+  background-color:silver;
+  cursor: pointer;
+}
+
+
+.top-wrapper{
+  background-size: cover;
+  margin:0 auto;
+}
+
+.container-1{
+  height:500px;
+}
+
+.container,.container-1{
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+
+.text{
+  margin-bottom:10px;
+  font-size:16px;
+}
+
+
+.poster{
+  float: left;
+  }
+
+.poster img{
+  margin: 0 0 0 50px;
+  height:350px;
+}
+
+
+
+.container h1,.container-1 h1{
+  font-size:28px;
+  text-align: center;
+  margin:20px;
+  background-color:gray;
+  color:white;
+  box-sizing: border-box;
+}
+
+
+.container h2{
+  text-align: center;
+
+  margin:13px 0 13px 0;
+}
+
+.container h3{
+  text-align:center;
+  margin:10px 0;
+}
+
+
+.container p,.container-1 p{
+  margin-bottom:15px;
+  font-size:10px;
+}
+
+
+img.video{
+  width:750px;
+  height:490px;
+  border:solid 1px black;
+}
+
+
+
+.temps-icon {
+  margin:4px;
+  border:solid 1px gray;
+
+}
+
+
+footer{
+  background-color:gray;
+  color:#fff;
+  height:85px;
+  width:100%;
+  margin-top:40px;
+}
+
+
+.footer-list li{
+  float:right;
+  font-size:18px;
+  padding: 33px 20px;
+}
