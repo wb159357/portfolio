@@ -28,6 +28,26 @@ header {
 }
 
 
+@media screen and (max-width: 959px){
+  header{
+    width :959px;
+  }
+
+  .head-container {
+    width : 959px;
+    }
+}
+
+@media screen and (max-width:480px){
+  header{
+    width :480px;
+  }
+
+  .head-container {
+    width:480px;
+  }
+}
+
 
 .head-container{
    width:1250px;
@@ -48,8 +68,6 @@ header {
 
 .header-menu{
   float:right;
-  position: relative;
-  z-index: 20;
   height:85px;
   width:100px;
   background-color: gray;
@@ -61,6 +79,28 @@ header {
 
 }
 
+@media screen and (max-width:959px){
+  .head-container ul{
+    float:right;
+    width: auto;
+  }
+
+  .header-menu:hover{
+    width: auto;
+  }
+}
+
+@media screen and (max-width:480px){
+  .head-container ul{
+    float:right;
+    width: auto;
+  }
+  .header-menu:hover{
+    width: auto;
+  }
+}
+
+
 .header-menu:hover{
   width:200px;
   height: auto;
@@ -68,9 +108,8 @@ header {
 
 .brand{
   text-align:center;
-  font-size:25px;
+  font-size:18px;
   margin-top: 40px
-  background-color:gray;
   color:white;
   height:85px;
 
@@ -82,11 +121,17 @@ header {
 
 .menu-item a{
   color:white;
+  border:none;
 }
 
 .menu-item:hover{
   background-color:silver;
   cursor: pointer;
+}
+
+
+.up-date{
+  float:left;
 }
 
 
@@ -101,11 +146,25 @@ header {
 
 .container,.container-1{
   width: 100%;
-  margin-top: 8px;
+  margin-top:8px;
   margin-bottom: 8px;
   text-align: center;
 }
 
+@media screen and (max-width:959px){
+  .container,.container-1{
+    width:auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .container,.container-1{
+    width: auto;
+    height:auto;
+  }
+}
 
 .text{
   margin-bottom:10px;
@@ -116,6 +175,7 @@ header {
 .poster{
   float: left;
   }
+
 
 .poster img{
   margin: 0 0 0 50px;
@@ -136,7 +196,6 @@ header {
 
 .container h2{
   text-align: center;
-
   margin:13px 0 13px 0;
 }
 
@@ -151,19 +210,51 @@ header {
   font-size:10px;
 }
 
+img.icon {
+  border:solid 1px gray;
+}
+
 
 img.video{
   width:750px;
   height:490px;
-  border:solid 1px black;
+  border:solid 1px gray;
 }
 
+@media screen and (max-width:959px){
+  img.video{
+    width:70%;
+    height: 70%;
+    border: solid 1px gray;
+  }
+}
+
+
+@media screen and (max-width:480px){
+  img.video{
+    width :40%;
+    height: 40%;
+  }
+}
 
 
 .temps-icon {
   margin:4px;
   border:solid 1px gray;
+}
 
+@media screen and (max-width:959px){
+  .temps-icon{
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width:480px){
+  .temps-icon{
+    width: 50%;
+    height: auto;
+  }
 }
 
 
