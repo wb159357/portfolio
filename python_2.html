@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+</head>
+
+<body>
+ <header>
+  <div class="head-container">
+  <div class="header-logo">
+   Portfolio
+  </div>
+
+  <ul class="header-menu">
+    <li class="brand">Menu
+    </li>
+    <li class="menu-item"><a href="index.html">PHP</a>
+    </li>
+    <li class="menu-item"><a href="index.html">Python</a>
+    </li>
+    <li class="menu-item"><a href="index.html">Analytics、AWS</a>
+    </li>
+    <li class="menu-item"><a href="index.html">今後どうなっていきたいか</a>
+    </li>
+  </ul>
+
+  </div>
+</header>
+<div class="up-date">
+  最新更新日：2021/03/10
+</div>
+
+
+<div class="lesson-wrapper">
+  <div class="container">
+    <h2>回帰分析による株価の高値、安値予測</h2>
+    <div class="text">
+      <a href="python_1.html">回帰分析による気温予測</a>で身に着けたことに、Webスクレイニングを付随して、<br>
+      <a href="https://kabuoji3.com/" target="_blank">株式投資メモ</a>に記載されている個別銘柄データにプログラムからアクセスし<br>
+      年別に異なるページに記載されている株式の値データを読み取り、すべての年データを結合してデータフレームにし、<br>
+      そこから高値、安値に対して気温予測の際のように回帰分析を行っていきたいと思います。<br>
+      これにより、予測安値付近で買い、予測高値付近で売る（または逆）を行うことができるかもしれません。<br>
+    </div>
+    <img class="temps-icon" src="kabu.png">
+    <div class="text">
+      HPはこのような形でデータを記載しています。<br>
+    </div>
+    <div class="stats-icon">
+    <img class="temps-icon" src="get_stock_data.png">
+    </div>
+    <div class="text">
+      上記のように、ひとまず2021年、2020年、2019年のデータを繰り返し取得し、それぞれデータを整えていきます。<br>
+      整えたデータをreturnで返し、次の結合作業に移していきます。<br>
+    </div>
+    <img class="temps-icon" src="data_con.png">
+    <div class="text">
+      今回は銘柄コード8306、三菱UFJフィナンシャルグループのデータで試してみました。<br>
+      データを結合し、一度csvファイルとして出力し中身を確認してみることにしました。<br>
+    </div>
+    <img class="temps-icon" src="ufj_data.png">
+    <img class="temps-icon" src="ufj_data3.png">
+    <div class="text">
+      2019年から2021年（データ取得時の最新データは3月15日）まで過不足なく取得できました。<br>
+      <br>
+      <br>
+      この続きは随時更新します。<br>
+      <br>
+      この予測が終わり次第、さらに長期的な予測が立てられるよう構成を考えていこうと思います。<br>
+　 　</div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-list">
+   <ul>
+    <li>shiraih159@gmail.com</li>
+    <li>連絡先</li>
+   </ul>
+  </div>
+</footer>
+
+</body>
+</html>

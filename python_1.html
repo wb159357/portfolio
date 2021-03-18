@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+</head>
+
+<body>
+ <header>
+  <div class="head-container">
+  <div class="header-logo">
+   Portfolio
+  </div>
+
+  <ul class="header-menu">
+    <li class="brand">Menu
+    </li>
+    <li class="menu-item"><a href="index.html">PHP</a>
+    </li>
+    <li class="menu-item"><a href="index.html">Python</a>
+    </li>
+    <li class="menu-item"><a href="index.html">Analytics、AWS</a>
+    </li>
+    <li class="menu-item"><a href="index.html">今後どうなっていきたいか</a>
+    </li>
+  </ul>
+
+  </div>
+</header>
+<div class="up-date">
+  最新更新日：2021/03/10
+</div>
+
+
+<div class="lesson-wrapper">
+  <div class="container">
+    <h2>回帰分析による気温の予測</h2>
+    <div class="text">
+      機械学習を身に着けるため翌日の平均気温を予測するプログラムを組みました。<br>
+      気象庁のホームページから埼玉の平均気温2009年1月1日～2020年12月16日分のデータをダウンロードし、<br>
+      重回帰分析の線形回帰モデルから2020年12月17日現在の平均気温を予測しました。<br>
+      開発環境はGoogle Colaboratoryを利用しました。<br>
+    </div>
+    <div class="stats-icon">
+    <img class="temps-icon" src="statsmodel.png">
+    <img class="temps-icon" src="statsmodel2.png">
+    </div>
+    <div class="text">
+      2009年～2019年までの10年分のデータを学習用のデータとし、2020年分のデータを予測に使うデータとしました。<br>
+      当日の前6日のデータから予測するため、学習用のデータをデータを振り分けました。<br>
+      train_xが前6日分の平均気温、train_yが実際の当日の平均気温です。<br>
+    </div>
+    <img class="temps-icon" src="statsmodel3.png">
+    <img class="temps-icon" src="statsmodel4.png">
+    <div class="text">
+      学習させた回帰モデルの評価が上記です。[7]で出力させた値が切片、6日分各々の偏回帰係数です。<br>
+      これらの値を予測用に振り分けたデータに適用させ予測した結果が下記になりました。<br>
+    </div>
+    <img class="temps-icon" src="statsmodel5.png">
+    <div class="text">
+      予測の結果17日の平均気温は 4.096398502291881度 となりました。<br>
+      <br>
+      翌日実際の平均気温がいくつであったか確認すると 3.0度 でした。<br>
+      <br>
+　 　</div>
+     <img class="temps-icon" src="sklearn_result.png">
+     <p>回帰モデルと学習データのグラフ</p>
+     <div class="text">
+	　　回帰モデルと学習データを可視化したものが上記です。赤色のグラフが学習データで青色のグラフが回帰モデルのデータです。<br>
+　　　右端の直近の部分は急激に冷え込んできていたこともあり乖離が大きように見えますが、全体として大きく乖離しているようではありません。<br>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-list">
+   <ul>
+    <li>shiraih159@gmail.com</li>
+    <li>連絡先</li>
+   </ul>
+  </div>
+</footer>
+
+</body>
+</html>
