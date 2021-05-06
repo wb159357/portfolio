@@ -69,7 +69,7 @@ header {
 .header-menu{
   float:right;
   height:85px;
-  width:100px;
+  width:180px;
   background-color: gray;
   white-space: nowrap;
   overflow: hidden;
