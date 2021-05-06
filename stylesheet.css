@@ -257,6 +257,34 @@ img.video{
   }
 }
 
+.lesson-wrapper-1{
+  margin-top: 45px;
+}
+
+.re-photo{
+  text-align: center;
+}
+
+.photo-icon{
+  margin: 4px;
+  height: 450px;
+  border:solid 1px gray;
+}
+
+.poster-icon{
+  margin: 4px;
+  height:350px;
+  border:solid 1px gray;
+}
+
+.lpsample{
+  width: 65%;
+  height: auto;
+  border:solid 1px gray;
+}
+
+
+
 
 footer{
   background-color:gray;
