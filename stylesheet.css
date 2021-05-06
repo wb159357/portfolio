@@ -69,7 +69,7 @@ header {
 .header-menu{
   float:right;
   height:85px;
-  width:180px;
+  width:150px;
   background-color: gray;
   white-space: nowrap;
   overflow: hidden;
@@ -102,7 +102,7 @@ header {
 
 
 .header-menu:hover{
-  width:200px;
+  width:270px;
   height: auto;
 }
 
