@@ -18,7 +18,7 @@ li {
 
 
 header {
-  background-color:navy;
+  background-color:lightsteelblue;
   color:#fff;
   height:85px;
   width:100%;
@@ -70,7 +70,7 @@ header {
   float:right;
   height:85px;
   width:150px;
-  background-color: navy;
+  background-color: lightsteelblue;
   white-space: nowrap;
   overflow: hidden;
   transition:width 0.4s ease-in;
@@ -188,7 +188,7 @@ header {
   font-size:28px;
   text-align: center;
   margin:20px;
-  background-color:navy;
+  background-color:lightsteelblue;
   color:white;
   box-sizing: border-box;
 }
@@ -287,7 +287,7 @@ img.video{
 
 
 footer{
-  background-color:navy;
+  background-color:lightsteelblue;
   color:#fff;
   height:85px;
   width:100%;
