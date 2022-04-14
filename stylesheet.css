@@ -288,6 +288,7 @@ img.video{
   width: 294px;
   background-color: #EDA;
   border: 3px double #990;
+  text-align: center;
 }
 
 #omikuji > h1 {
