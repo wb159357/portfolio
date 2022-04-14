@@ -11,7 +11,8 @@ btn.onclick = function(){
     random_color = colors[Math.floor(Math.random() * colors.length)];
 
     message = "<h2>" + random_luck + "</h2>";
-    message += "<p>は　" + random_color + "色</p>";
+    message += "<p>ラッキーカラーは　" + random_color + "色</p>";
+    output.innerHTML = message;
 }
 
 }
