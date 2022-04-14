@@ -15,5 +15,4 @@ btn.onclick = function(){
     message = "<h2>" + random_luck + "</h2>";
     message += "<p>ラッキーカラーは　" + random_color + "色</p>";
 }
-
 }
