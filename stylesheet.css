@@ -283,7 +283,7 @@ img.video{
   border:solid 1px gray;
 }
 
-#omikuji {
+.omikuji {
   text-align: center;
   width: 294px;
   background-color: #EDA;
@@ -291,32 +291,32 @@ img.video{
   text-align: center;
 }
 
-#omikuji > h1 {
+.omikuji h3{
   color: #630;
   font-family: serif;
 }
 
-#omikuji > #output > h2 {
+.omikuji > #output > h2 {
   font-size: 70px;
   font-family: serif;
   margin: 0;
   text-shadow: 0 -1px 0 #222;
 }
 
-#omikuji > #output > p {
+.omikuji > #output > p {
   font-size: 15px;
   font-family: serif;
   margin: 0;
 }
 
-#omikuji > #output {
+.omikuji > #output {
   background-color: #C00;
   color: #FFF;
   margin: 10px auto;
   padding: 5px;
 }
 
-#omikuji > #btn {
+.omikuji > #btn {
   background: #740;
   border: 0;
   color: #FFF;
@@ -328,11 +328,11 @@ img.video{
 
 }
 
-#omikuji > #btn:hover {
+.omikuji > #btn:hover {
   background: #960;
 }
 
-#omikuji > #btn:active {
+.omikuji > #btn:active {
   background: #630;
 }
 
