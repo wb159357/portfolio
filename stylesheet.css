@@ -288,6 +288,7 @@ img.video{
   width: 294px;
   background-color: #EDA;
   border: 3px double #990;
+  box-shadow: 0 10px 10px #999;
   margin-right: auto;
   margin-left: auto;
 }
@@ -349,7 +350,7 @@ img.video{
   width: 300px;
 }
 
-.timer > h1 {
+.timer > h3 {
   font-family: "Arial Black";
   font-size: 25px;
 }
