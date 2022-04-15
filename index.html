@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://wb159357.github.io/portfolio/stylesheet.css">
   <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
   <script src="https://wb159357.github.io/portfolio/omikuji.js"></script>
-  
+  <script src="https://wb159357.github.io/portfolio/timer.js"></script>
 </head>
 
 <body>
@@ -62,13 +62,25 @@
 　<div class="container">
     <h2>＜JavaScript＞</h2>
     <div class="text">
-      基礎的なJavaScriptを使用したおみくじです。<br>
+      基礎的なJavaScriptを使用したおみくじと5分間タイマーです。<br>
      <div class="omikuji">
       <h3>おみくじ</h3>
       <p id="output">あなたの本日の運勢は…？</p>
       <input type="button" id="btn" value="占う">
      </div>
    </div>
+　　<div id="timer">
+      <h1>Timer</h1>
+      <p>
+        <span id="min">0</span> 分
+        <span id="sec">0</span> 秒
+      </p>
+      <p>
+        <input type="button" id="start" value="START">
+        <input type="button" id="stop" value="STOP" disabled>
+        <input type="button" id="reset" value="RESET">
+      </p>
+    </div>
   </div>
   <br>
   <div class="container">
