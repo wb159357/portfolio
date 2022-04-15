@@ -338,7 +338,50 @@ img.video{
 }
 
 
+#timer {
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px #999;
+  border: 1px solid #999;
+  margin: 0 auto;
+  padding: 15px 20px;
+  text-align: center;
+  width: 300px;
+}
 
+#timer > h1 {
+  font-family: "Arial Black";
+  font-size: 25px;
+}
+
+#timer > p > span {
+  color: navy;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#timer > p > input[type*="button"] {
+  background: royalblue;
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  padding: 10px 0;
+  width: 80px;
+}
+
+#timer > p > input[type*="button"]:hover {
+  background: lightsteelblue;
+}
+
+#timer > p > input[type*="button"]:active {
+  background: steelblue;
+}
+
+#timer > p > input[type*="button"]:disabled {
+  background: steelblue;
+  cursor: default;
+}
 
 footer{
   background-color:lightsteelblue;
