@@ -182,7 +182,11 @@ header {
   height:350px;
 }
 
-
+.mokuji{
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #999;
+  
 
 .container h1,.container-1 h1{
   font-size:28px;
