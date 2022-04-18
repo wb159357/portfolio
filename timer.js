@@ -1,5 +1,5 @@
 window.onload = function(){
-  var time = 300;
+  var time = 180;
   var counter;
   var min = document.getElementById("min");
   var sec = document.getElementById("sec");
@@ -18,7 +18,7 @@ window.onload = function(){
   }
 
   reset.onclick = function() {
-    time = 300;
+    time = 180;
     sec.innerHTML = time % 60;
     min.innerHTML = Math.floor( time / 60 );
   }
@@ -38,7 +38,7 @@ window.onload = function(){
       sec.innerHTML = 0;
       min.innerHTML = 0;
       toggle();
-      alert("5分経過しました。貴重なお時間をこのサイトに使って下さりありがとうございます。");
+      alert("3分経過しました。"<br>"貴重なお時間をこのサイトに使って下さりありがとうございます。");
       clearInterval( counter );
     } else {
       time -= 1;
