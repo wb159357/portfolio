@@ -38,7 +38,7 @@ window.onload = function(){
       sec.innerHTML = 0;
       min.innerHTML = 0;
       toggle();
-      alert("3分経過しました。/n貴重なお時間をこのサイトに使って下さりありがとうございます。");
+      alert("3分経過しました。\n貴重なお時間をこのサイトに使って下さりありがとうございます。");
       clearInterval( counter );
     } else {
       time -= 1;
