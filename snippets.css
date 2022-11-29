@@ -49,20 +49,3 @@ nav.open-menu {
   height: 100%;
 }
 
-
-
-footer{
-  margin-top: 50px;
-  background-color: #0bd;
-  color:#fff;
-  height:55px;
-  width:100%;
-  position: absolute;
-  bottom: 0;
-}
-
-.footer-list li{
-  float:left;
-  font-size:13px;
-  padding: 5px 20px 15px;
-}
