@@ -21,10 +21,14 @@
 <button class="btn-menu">メニュー</button>
   <nav>
     <ul>
+      <li><a href="#svn">会社業務でのスキルについて</a></li>
+      <li><a href="#html">デザインや画像編集</a></li>
+      <li><a href="#js">Javascript</a></li>
       <li><a href="#php">PHP</a></li>
       <li><a href="#python">Python</a></li>
       <li><a href="#mark">インフラ周りやライティング業務</a></li>
       <li><a href="#f">今後の抱負</a></li>
+      <li><a href="#mail">連絡先</a></li>
     </ul>
   </nav>
   
@@ -177,7 +181,7 @@
 </div>
 
 <footer>
-  <div class="footer-list">
+  <div class="footer-list" id="mail">
    <ul>
     <li>shiraih159@gmail.com</li>
     <li>連絡先</li>
@@ -186,7 +190,7 @@
 </footer>
 
 </body>
-	<script>
+<script>
     const btn = document.querySelector('.btn-menu');
     const nav = document.querySelector('nav');
 
@@ -198,4 +202,5 @@
          btn.innerHTML = 'メニュー';
        }
     },false);
+    </script>
 </html>
