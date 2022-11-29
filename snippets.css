@@ -1,0 +1,68 @@
+/* ヘッダー、サイド基本装飾 */
+header {
+  background: #0bd;
+  padding: .5rem;
+  text-align: left;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+li {
+  padding: 2rem 0;
+}
+
+nav li:hover{
+  background-color: gray;
+}
+
+/* ボタン */
+.btn-menu {
+  border: 1px solid #9cf;
+  background: transparent;
+  color: #fff;
+  padding: .5rem 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* メニュー */
+nav {
+  background: #333;
+  position: absolute;
+  z-index: 1;
+  top: 3.125rem;
+  left: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 0;
+  height: 100%;
+  transition: .5s;
+}
+/* メニューを開いた時 */
+nav.open-menu {
+  width: 25%;
+  height: 100%;
+}
+
+
+
+footer{
+  margin-top: 50px;
+  background-color: #0bd;
+  color:#fff;
+  height:55px;
+  width:100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-list li{
+  float:left;
+  font-size:13px;
+  padding: 5px 20px 15px;
+}
