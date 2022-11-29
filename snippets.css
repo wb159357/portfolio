@@ -8,9 +8,10 @@
 
 .btn-menu li {
   padding: 2rem 0;
+  margin: 10px 0;
 }
 
-.btn-menu nav li:hover{
+nav li:hover{
   background-color: gray;
 }
 
