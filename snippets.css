@@ -1,12 +1,12 @@
 /* ヘッダー、サイド基本装飾 */
 
-.btn-menu a {
+nav a {
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.btn-menu li {
+nav li {
   padding: 2rem 0;
   margin-top: 10px;
   margin-bottom: 10px;
