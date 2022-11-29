@@ -16,6 +16,7 @@
 
 /* ボタン */
 .btn-menu {
+  float:right;
   border: 1px solid #9cf;
   background: transparent;
   color: #fff;
