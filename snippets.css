@@ -1,21 +1,16 @@
 /* ヘッダー、サイド基本装飾 */
-header {
-  background: #0bd;
-  padding: .5rem;
-  text-align: left;
-}
 
-a {
+.btn-menu a {
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
 }
 
-li {
+.btn-menu li {
   padding: 2rem 0;
 }
 
-nav li:hover{
+.btn-menu nav li:hover{
   background-color: gray;
 }
 
