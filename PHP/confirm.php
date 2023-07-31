@@ -1,5 +1,4 @@
 <?php require_once('data.php') ?>
-
 <!DOCTYPE html>
 <html>
 <head>
