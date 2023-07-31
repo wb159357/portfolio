@@ -13,7 +13,6 @@ class Menu {
     self::$count++;
   }
 
-
   public function getName() {
     return $this->name;
   }
