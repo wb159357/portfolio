@@ -3,7 +3,6 @@ from selenium import webdriver
 import gkeepapi
 import signal
 import os
-
 import account
 
 keep = gkeepapi.Keep()
